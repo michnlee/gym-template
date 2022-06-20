@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Comfortaa", cursive, sans-serif;
+  margin: auto;
+  background: #111;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar,
+.hero,
+.about,
+.service {
+  max-width: 100%;
+}
+
+.navbar {
+  height: 80px;
+}
+
+.navbar .container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.navbar .container ul li {
+  margin-right: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.navbar .container ul li:hover {
+  color: #e33;
+}
+
+.navbar .container .btn {
+  width: 140px;
+  height: 45px;
+  background: #e33;
+  border: 2px solid #e33;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s;
+  color: #fff;
+}
+
+.navbar .container .btn:hover {
+  background: #e11;
+  border: 2px solid #e11;
+}
+
+.hero {
+  padding-top: 150px;
+  font-size: 20px;
+}
+
+.hero .container .hero-info h1 {
+  font-size: 70px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+.hero .container .hero-info h1 span {
+  color: #e33;
+}
+
+.hero .container .hero-info h4 {
+  padding-top: 20px;
+}
+
+.hero .container .hero-info input {
+  margin-top: 50px;
+  padding: 23px;
+  width: 400px;
+  height: 45px;
+  background: transparent;
+  border: 2px solid #fff;
+  border-radius: 25px;
+  outline: none;
+  font-size: 16px;
+}
+
+.hero .container .hero-info input:placeholder {
+  color: #fff;
+}
+
+.hero .container .hero-info button {
+  width: 140px;
+  height: 45px;
+  border: 2px solid #e33;
+  border-radius: 25px;
+  background-color: #e33;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  position: relative;
+  left: -148px;
+  transition: 0.5s;
+}
+
+.hero .container .hero-info button:hover {
+  background-color: #e11;
+  border: 2px solid #e11;
+}
+
+.hero .container .hero-image {
+  margin-left: 200px;
+  width: 400px;
+}
+
+.about {
+  background: #222;
+  padding-top: 50px;
+}
+
+.about .container .about-image {
+  width: 500px;
+  margin-top: 100px;
+}
+
+.about .container .about-info {
+  padding-left: 200px;
+}
+
+.about .container .about-info h1 {
+  padding-top: 80px;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.about .container .about-info h3{
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+.about .container .about-info p{
+     color: #999;
+     line-height: 25px;
+     padding-top: 30px;
+}
+
+.about .container .about-info button {
+    width: 140px;
+    height: 45px;
+    border: 2px solid #e33;
+    border-radius: 25px;
+    background-color: #e33;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-top: 30px;
+  }
+
+  .about .container .about-info button:hover {
+    background-color: #e11;
+    border: 2px solid #e11;
+  }
+
+.service{
+    background:#111;
+    padding: 50px 0;
+}
+
+.service .container .service-info{
+    padding: 25px 0;
+}
+
+.service .container .service-info h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+}
